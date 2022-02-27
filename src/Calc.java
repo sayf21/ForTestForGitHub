@@ -7,8 +7,12 @@ import java.util.List;
 
 public class Calc {
     public static void main(String[] args) {
-        List<String> list = new ArrayList<>(2);
+        List<String> list = new ArrayList<>(6);
         list.add("Первый");
+        list.add("Второй");
+        list.add("Второй");
+        list.add("Второй");
+        list.add("Второй");
         list.add("Второй");
         for (String l : list) {
             System.out.println(l);

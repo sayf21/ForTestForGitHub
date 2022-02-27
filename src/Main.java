@@ -4,7 +4,7 @@
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Привет, я внес изменение! " +
-                "Это первая ветка");
+        System.out.println("Я разраб из первой ветки" +
+                "Хочу сделать так");
     }
 }

@@ -3,4 +3,11 @@
  **/
 
 public class Array {
+    int a;
+    String b;
+
+    public Array(int a, String b) {
+        this.a = a;
+        this.b = b;
+    }
 }
