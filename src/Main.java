@@ -4,7 +4,12 @@
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Я разраб из первой ветки" +
-                "Хочу сделать так");
+        System.out.println("Привет, это master ветка");
+        Main main = new Main();
+        main.write("собеседование");
+    }
+
+    public void write(String message) {
+        System.out.println("Напишу-ка я слово: " + message);
     }
 }
