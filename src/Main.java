@@ -6,8 +6,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Привет, это master ветка");
         Main main = new Main();
-        main.write("собеседование");
-        main.write("КОНФЛИКТ ВЕРСИЙ");
+        main.write("главная ветка");
     }
 
     public void write(String message) {
