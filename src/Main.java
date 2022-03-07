@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Привет, это master ветка");
         Main main = new Main();
-        main.write("первая ветка создает конфликт");
+        main.write("первая ветка");
     }
 
     public void write(String message) {
